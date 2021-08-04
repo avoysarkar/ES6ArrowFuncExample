@@ -1,2 +1,2 @@
 # ES6ArrowFuncExample
-Created with CodeSandbox
+React App created with CodeSandbox
