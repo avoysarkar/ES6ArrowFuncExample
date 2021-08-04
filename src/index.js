@@ -15,16 +15,15 @@ const newNumbers1 = numbers.filter((num) => num < 10);
 console.log(newNumbers1);
 
 //Reduce - Accumulate a value by doing something to each item in an array.
-var newNumber = numbers.reduce(function (accumulator, currentNumber) {
-  return accumulator + currentNumber;
-});
+var newNumber3 = numbers.reduce(
+  (accumulator, currentNumber) => accumulator + currentNumber
+);
+console.log(newNumber3);
 
 ////Find - find the first item that matches from an array.
-// const newNumber = numbers.find(function (num) {
-//   return num > 10;
-// })
+const newNumber = numbers.find((num) => num > 10);
+console.log(newNumber);
 
 ////FindIndex - find the index of the first item that matches.
-// const newNumber = numbers.findIndex(function (num) {
-//   return num > 10;
-// })
+const newNumber2 = numbers.findIndex((num) => num > 10);
+console.log(newNumber2);
